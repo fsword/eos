@@ -1,5 +1,5 @@
 FROM eosio/builder as builder
-ARG branch=master
+ARG branch=release/1.7.x
 ARG symbol=SYS
 
 RUN git clone -b $branch https://github.com/EOSIO/eos.git --recursive \
